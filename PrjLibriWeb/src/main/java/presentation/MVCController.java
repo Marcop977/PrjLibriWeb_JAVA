@@ -30,7 +30,7 @@ public class MVCController extends HttpServlet{
 		
 		response.sendRedirect("libri.jsp");  
 
-		request.getRequestDispatcher("addLibro.jsp").forward(request, response); //come sendRedirect ma nella barra non si vedrà addCanzone ma sempre /provami
+		//request.getRequestDispatcher("addLibro.jsp").forward(request, response); //come sendRedirect ma nella barra non si vedrà addCanzone ma sempre /provami
 		
 		
 	}
