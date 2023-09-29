@@ -14,7 +14,7 @@
 
 	<h1>Libri</h1>
 	
-	<a href="provami">Add libro</a>
+	<a href="addLibro.jsp">Add libro</a>
 
 	<table>
 	  <tr>

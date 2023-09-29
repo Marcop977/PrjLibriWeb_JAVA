@@ -26,12 +26,10 @@ public class MVCController extends HttpServlet{
 		
 		//response.getWriter().print("Hey sei connesso! Mi hai chiamato usando GET");
 		
-		request.setAttribute("titoloPagina", "Il titolo di questa pagina è...");
+		//request.setAttribute("titoloPagina", "Il titolo di questa pagina è...");
 		
-		response.sendRedirect("libri.jsp");  
-
-		//request.getRequestDispatcher("addLibro.jsp").forward(request, response); //come sendRedirect ma nella barra non si vedrà addCanzone ma sempre /provami
-		
+		request.getRequestDispatcher("libri.jsp").forward(request, response); //come sendRedirect ma nella barra non si vedrà addCanzone ma sempre /provami
+		//response.sendRedirect("libri.jsp");  		
 		
 	}
 

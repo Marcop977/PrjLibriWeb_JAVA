@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h1><%= request.getAttribute("titoloPagina") %></h1>
+	<%-- <h1><%= request.getAttribute("titoloPagina") %></h1> --%>
 	
 	<form action="provami" method="post">
 	
